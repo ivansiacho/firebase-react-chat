@@ -23,3 +23,5 @@ Click [here](https://github.com/ivansiacho/firebase-react-chat/archive/master.zi
 	> npm install
 	> npm start
 ```
+
+Check the live example [here](https://ivansiacho.github.io/firebase-react-chat/)
