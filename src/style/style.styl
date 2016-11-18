@@ -1,0 +1,120 @@
+body
+    background: #829B95
+
+.btn-primary
+    color: #fff
+    background-color: #5CBAD4
+    border-color: #5CBAD4
+
+    &:hover
+	    background-color: #4E9CB3
+    	border-color: #4E9CB3
+
+.text-center
+	text-align: center
+
+.list-unstyled
+	margin-bottom: 0
+
+	> li
+		margin-top: 15px
+
+		&:first-child
+			margin-top: 0
+
+.main-container
+	background: #fff
+	position: relative
+	box-shadow: 1px 1px 5px #666
+	overflow: hidden
+	border-radius: 5px
+	margin-top: 20px
+
+	&:after
+		content: ''
+		display: block
+		clear: both
+
+.chat-container
+.profile-container
+	padding: 15px
+	height: 500px
+
+.messages-container
+	overflow: auto
+	height: calc(100% - 90px)
+
+.profile-container
+	color: #fff
+
+	&:before
+		background: #4D362D
+		content: ''
+		display: block
+		position: absolute
+		left: 0
+		top: 0
+		height: 100%
+		width: 100%
+		opacity: 0.7
+
+	> .content
+		position: relative
+		top: 100px
+
+	hr
+		border-color: #fff
+
+.chat-item
+	min-height: 55px
+
+	&:after
+		display: block
+		content: ''
+		clear: both
+
+	.chat-image
+		float: left
+		position: relative
+
+	.time-user
+		position: absolute
+		font-size: 10px
+		width: 60px
+
+	.img-user
+		width: 40px
+		border-radius: 50%
+
+	.chat-message
+		background: #CAE3EA
+		float: left
+		margin-left: 15px
+		padding: 5px 10px
+		margin-top: 3px
+		position: relative
+		max-width: calc(100% - 55px)
+		border-radius: 5px
+
+		&:before
+			content: ''
+			display: block
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent
+			border-bottom: 10px solid transparent
+			border-right:10px solid #CAE3EA
+			position: absolute
+			left: -10px
+			top: 7px
+
+.new-message-container
+	border-top: 1px solid #ccc
+	padding-top: 10px
+
+	.form-textarea
+		float: left
+    	width: 87%
+    	margin-right: 15px
+
+
